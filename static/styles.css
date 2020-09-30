@@ -1,0 +1,34 @@
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: black;
+  color: white;
+  display: grid;
+  align-items: center;
+}
+
+
+#form {
+  /* display: block; */
+  /* flex-wrap: wrap; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  border: 2px;
+  background: hsl(0 0% 93%);
+  border-radius: .25rem;
+  padding: .75rem 1rem;
+}
+
+#bart{
+  height: 200px;
+  flex-wrap: wrap;
+}
+
+#mercari{
+  height: 70px;
+}
+

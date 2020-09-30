@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <title>Document</title>
+  <img id="mercari" src="https://avatars3.githubusercontent.com/u/8133808?s=280&v=4"/>
+  <h1>Mercari Skateboard-list</h1>
+  <!-- <img id="bart" src="https://thumbs.gfycat.com/PreciousIdioticAlaskanhusky-max-1mb.gif"/> -->
+  <form method="POST">
+    <h3>Sign up to join our mailing list...</h3>
+    <input id="email-input" type="email" name="email" placeholder="Please enter your email"/>
+    <input type="submit" value="Sign Up" id="submit"/>
+    <div id="bart-append"></div>
+  </form>
+</head>
+<body>
+  <script src="{{ url_for('static', filename='submit.js') }}"></script>
+</body>
+</html>
