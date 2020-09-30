@@ -76,7 +76,7 @@ print(driver.current_url)
 # })
 
 #send email test
-send_email()
+# send_email()
 
 #close driver
 driver.close()
