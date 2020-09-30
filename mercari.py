@@ -60,20 +60,20 @@ print(driver.current_url)
 
 
 #api keys
-key = MAILGUN_
-sandbox = 'sandbox554e088ba7b8498fa726f86f21885585.mailgun.org'
-recipient = 'mercari-skateboard-listing@sandbox554e088ba7b8498fa726f86f21885585.mailgun.org'
+# key = MAILGUN_
+# sandbox = 'sandbox554e088ba7b8498fa726f86f21885585.mailgun.org'
+# recipient = 'mercari-skateboard-listing@sandbox554e088ba7b8498fa726f86f21885585.mailgun.org'
 
 
-def send_email():
-  request_url = 'https://api.mailgun.net/v2/{0}/messages'.format(sandbox)
-  request = requests.post(request_url, auth=('api', key), 
-  data={
-    'from': 'hello@example.com',
-    'to': recipient,
-    'subject': 'Mercari Recent Skateboard Listings',
-    'text': "Here is the most recent skateboard listings from Mercari  " +  current_listings
-})
+# def send_email():
+#   request_url = 'https://api.mailgun.net/v2/{0}/messages'.format(sandbox)
+#   request = requests.post(request_url, auth=('api', key), 
+#   data={
+#     'from': 'hello@example.com',
+#     'to': recipient,
+#     'subject': 'Mercari Recent Skateboard Listings',
+#     'text': "Here is the most recent skateboard listings from Mercari  " +  current_listings
+# })
 
 #send email test
 send_email()
