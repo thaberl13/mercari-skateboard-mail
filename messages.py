@@ -1,9 +1,9 @@
 import requests
 import mercari
-import config
+# import config
 
 
-key = config.api_key
+key = MAILGUN_API_KEY
 sandbox = 'sandbox554e088ba7b8498fa726f86f21885585.mailgun.org'
 recipient = 'test@debsmail.com'
 

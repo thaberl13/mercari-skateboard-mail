@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.options import Options
 import requests
 import lxml
 from bs4 import BeautifulSoup
-import config
+# import config
 
 #give driver options to not display browser when running
 options = Options()
@@ -60,7 +60,7 @@ print(driver.current_url)
 
 
 #api keys
-key = config.api_key
+key = MAILGUN_
 sandbox = 'sandbox554e088ba7b8498fa726f86f21885585.mailgun.org'
 recipient = 'mercari-skateboard-listing@sandbox554e088ba7b8498fa726f86f21885585.mailgun.org'
 
