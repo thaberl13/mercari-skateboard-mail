@@ -1,9 +1,14 @@
 import requests
 from flask import Flask, render_template, url_for, request
+import os
 # import mercari
 # import config
 
 app = Flask(__name__)
+environment_configuration = os.environ['CONFIGURATION_SETUP']
+app.config.from_object(environment_configuration)
+
+
 
 
 def subscribe_user(email, user_group_email, api_key):
