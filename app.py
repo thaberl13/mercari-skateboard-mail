@@ -3,12 +3,11 @@ from flask import Flask, render_template, url_for, request
 import os
 # import mercari
 # import config
+import settings
+MAILGUN_API_KEY = settings.MAILGUN_API_KEY
 
 app = Flask(__name__)
-environment_configuration = os.environ['CONFIGURATION_SETUP']
-app.config.from_object(environment_configuration)
-
-
+app.config.update()
 
 
 def subscribe_user(email, user_group_email, api_key):
