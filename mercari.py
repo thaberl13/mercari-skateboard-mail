@@ -22,7 +22,7 @@ driver.get('https://www.mercari.com/jp/')
 
 #get input textbox
 search_bar = driver.find_element_by_xpath('//*[@id="__next"]/div/header/div/div[1]/form/input')
-
+  
 sleep(2)
 
 #enter text
@@ -49,7 +49,7 @@ completion_button = driver.find_element_by_xpath('/html/body/div[1]/main/div[2]/
 
 
 #get html values of page
-driver.page_source
+html_listings = driver.page_source
 
 
 #get current listings
