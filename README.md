@@ -4,6 +4,8 @@
 
 🛹 An Email list that sends you the most recent skateboarding/skateboarding related listings posted to Mercari. Auto-sent to users once a day to see what new goods have been posted.
 
+🛹 Sign up and Enjoy! 🥳 🛹
+
 ## Installation
 
 Pip package manager
@@ -14,11 +16,11 @@ python-3.6.6
 pip
 ```
 
-## 🛹 Backend built using Python, Flask, Selenium, Mailgun, and Beautiful Soup.
+## Tech
+  🛹 Backend built using Python, Flask, Selenium, Mailgun, and Beautiful Soup.
 
-### 🛹 POST user email to MailGun mailing list
+  🛹 POST user email to MailGun mailing list
 
-## 🛹 Sign up and Enjoy! 🥳 🛹
 
 # Project Status
   Users that sign up on the email-list have to be approved by repository owner via MailGun Dashboard. The daily letter is currently set to not be sent out.
